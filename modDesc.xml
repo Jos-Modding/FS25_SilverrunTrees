@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="110">
+    <author>Jos</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Silverrun Trees</en>
+    </title>
+    <description>
+        <en><![CDATA[Adds Silverrun trees to any map.]]></en>
+    </description>
+    <iconFilename>icon_template.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="src/main.lua"/>
+    </extraSourceFiles>
+    <storeItems>
+        <!-- Giant Sequoia -->
+        <storeItem xmlFilename="trees/giantSequoia/giantSequoia_stage01.xml"/>
+        <storeItem xmlFilename="trees/giantSequoia/giantSequoia_stage02.xml"/>
+        <storeItem xmlFilename="trees/giantSequoia/giantSequoia_stage03.xml"/>
+        <!-- Pagoda Dogwood -->
+        <storeItem xmlFilename="trees/pagodaDogwood/pagodaDogwood_stage01.xml"/>
+        <storeItem xmlFilename="trees/pagodaDogwood/pagodaDogwood_stage02.xml"/>
+        <storeItem xmlFilename="trees/pagodaDogwood/pagodaDogwood_stage03.xml"/>
+        <!-- Pine -->
+        <storeItem xmlFilename="trees/pine/pine_stage01.xml"/>
+        <storeItem xmlFilename="trees/pine/pine_stage02.xml"/>
+        <storeItem xmlFilename="trees/pine/pine_stage03.xml"/>
+        <storeItem xmlFilename="trees/pine/pine_stage04.xml"/>
+        <storeItem xmlFilename="trees/pine/pine_stage05.xml"/>
+        <storeItem xmlFilename="trees/pine/pine_stage06.xml"/>
+        <!-- Ponderosa Pine -->
+        <storeItem xmlFilename="trees/ponderosaPine/ponderosaPine_stage01.xml"/>
+        <storeItem xmlFilename="trees/ponderosaPine/ponderosaPine_stage02.xml"/>
+        <storeItem xmlFilename="trees/ponderosaPine/ponderosaPine_stage03.xml"/>
+        <storeItem xmlFilename="trees/ponderosaPine/ponderosaPine_stage04.xml"/>
+        <!-- Spruce -->
+        <storeItem xmlFilename="trees/spruce/spruceVar1_stage01.xml"/>
+        <storeItem xmlFilename="trees/spruce/spruceVar1_stage02.xml"/>
+        <storeItem xmlFilename="trees/spruce/spruceVar1_stage03.xml"/>
+    </storeItems>
+</modDesc>

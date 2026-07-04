@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <treeTypes>
+        <treeType name="giantSequoia" splitType="GIANTSEQUOIA" title="$l10n_treeType_giantSequoia" growthTimeHours="3" saplingPrice="0">
+            <stage>
+                <variation name="RISUTECSKB240" filename="trees/giantSequoia/saplings/giantSequoiaSapling01.i3d">
+                    <pallet filename="trees/giantSequoia/saplings/giantSequoiaSapling01_pallet.i3d" storeItem="$data/objects/pallets/treeSaplingPallet01/treeSaplingPallet01.xml"/>
+                    <planter filename="trees/giantSequoia/saplings/giantSequoiaSapling01_planter_risutecSKB240.i3d" />
+                </variation>
+                <variation name="DEFAULT" filename="trees/giantSequoia/saplings/giantSequoiaSapling02.i3d">
+                    <pallet storeItem="$data/objects/pallets/treeSaplingPallet02/treeSaplingPallet02.xml"/>
+                </variation>
+            </stage>
+
+            <stage filename="trees/giantSequoia/giantSequoia_stage01.i3d" />
+            <stage filename="trees/giantSequoia/giantSequoia_stage02.i3d" />
+            <stage filename="trees/giantSequoia/giantSequoia_stage03.i3d" />
+        </treeType>
+
+        <treeType name="ponderosaPine" splitType="PONDEROSAPINE" title="$l10n_treeType_ponderosaPine" growthTimeHours="208" saplingPrice="0">
+            <stage>
+                <variation name="RISUTECSKB240" filename="trees/ponderosaPine/saplings/ponderosaPineSapling01.i3d">
+                    <pallet filename="trees/ponderosaPine/saplings/ponderosaPineSapling01_pallet.i3d" storeItem="$data/objects/pallets/treeSaplingPallet01/treeSaplingPallet01.xml"/>
+                    <planter filename="trees/ponderosaPine/saplings/ponderosaPineSapling01_planter_risutecSKB240.i3d" />
+                </variation>
+                <variation name="DEFAULT" filename="trees/ponderosaPine/saplings/ponderosaPineSapling02.i3d">
+                    <pallet storeItem="$data/objects/pallets/treeSaplingPallet02/treeSaplingPallet02.xml"/>
+                </variation>
+            </stage>
+
+            <stage filename="trees/ponderosaPine/ponderosaPine_stage01.i3d" />
+            <stage filename="trees/ponderosaPine/ponderosaPine_stage02.i3d" />
+            <stage filename="trees/ponderosaPine/ponderosaPine_stage03.i3d" />
+            <stage filename="trees/ponderosaPine/ponderosaPine_stage04.i3d" />
+        </treeType>
+
+        <treeType name="pagodaDogwood" splitType="PAGODADOGWOOD" title="$l10n_treeType_pagodaDogwood" growthTimeHours="208" saplingPrice="0">
+            <stage>
+                <variation name="RISUTECSKB240" filename="trees/pagodaDogwood/saplings/pagodaDogwoodSapling01.i3d">
+                    <pallet filename="trees/pagodaDogwood/saplings/pagodaDogwoodSapling01_pallet.i3d" storeItem="$data/objects/pallets/treeSaplingPallet01/treeSaplingPallet01.xml"/>
+                    <planter filename="trees/pagodaDogwood/saplings/pagodaDogwoodSapling01_planter_risutecSKB240.i3d" />
+                </variation>
+                <variation name="DEFAULT" filename="trees/pagodaDogwood/saplings/pagodaDogwoodSapling02.i3d">
+                    <pallet storeItem="$data/objects/pallets/treeSaplingPallet02/treeSaplingPallet02.xml"/>
+                </variation>
+            </stage>
+
+            <stage filename="trees/pagodaDogwood/pagodaDogwood_stage01.i3d" />
+            <stage filename="trees/pagodaDogwood/pagodaDogwood_stage02.i3d" />
+            <stage filename="trees/pagodaDogwood/pagodaDogwood_stage03.i3d" />
+        </treeType>
+
+        <treeType name="pine" splitType="PINE" title="$l10n_treeType_pine" growthTimeHours="208" saplingPrice="0">
+            <stage>
+                <variation name="RISUTECSKB240" filename="trees/pine/saplings/pineSapling01.i3d">
+                    <pallet filename="trees/pine/saplings/pineSapling01_pallet.i3d" storeItem="$data/objects/pallets/treeSaplingPallet01/treeSaplingPallet01.xml"/>
+                    <planter filename="trees/pine/saplings/pineSapling01_planter_risutecSKB240.i3d" />
+                </variation>
+                <variation name="DEFAULT" filename="trees/pine/saplings/pineSapling02.i3d">
+                    <pallet storeItem="$data/objects/pallets/treeSaplingPallet02/treeSaplingPallet02.xml"/>
+                </variation>
+            </stage>
+
+            <stage filename="trees/pine/pine_stage01.i3d" />
+            <stage filename="trees/pine/pine_stage02.i3d" />
+            <stage filename="trees/pine/pine_stage03.i3d" />
+            <stage filename="trees/pine/pine_stage04.i3d" />
+            <stage filename="trees/pine/pine_stage05.i3d" />
+            <stage filename="trees/pine/pine_stage06.i3d" />
+        </treeType>
+
+        <treeType name="spruceVar1" splitType="SPRUCE" title="$l10n_treeType_spruce" growthTimeHours="305" saplingPrice="0">
+            <stage>
+                <variation name="RISUTECSKB240" filename="trees/spruce/saplings/spruceSapling01.i3d">
+                    <pallet filename="trees/spruce/saplings/spruceSapling01_pallet.i3d" storeItem="$data/objects/pallets/treeSaplingPallet01/treeSaplingPallet01.xml"/>
+                    <planter filename="trees/spruce/saplings/spruceSapling01_planter_risutecSKB240.i3d" />
+                </variation>
+                <variation name="DEFAULT" filename="trees/spruce/saplings/spruceSapling02.i3d">
+                    <pallet storeItem="$data/objects/pallets/treeSaplingPallet02/treeSaplingPallet02.xml"/>
+                </variation>
+            </stage>
+
+            <stage filename="trees/spruce/spruceVar1_stage01.i3d" />
+            <stage filename="trees/spruce/spruceVar1_stage02.i3d" />
+            <stage filename="trees/spruce/spruceVar1_stage03.i3d" />
+        </treeType>
+    </treeTypes>
+</map>
