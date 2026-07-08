@@ -7,31 +7,35 @@
         <de>Silverrun Bäume</de>
     </title>
     <description>
-        <en><![CDATA[Adds Silverrun trees to any map.]]></en>
-        <de><![CDATA[Fügt Silverrun-Bäume zu jeder Karte hinzu.]]></de>
+        <en><![CDATA[Adds trees from Silverrun Forest to any map. Giant Sequoia, Pagoda Dogwood, Ponderosa Pine, and Pine.
+
+All trees can be planted or placed through the build menu.
+]]>
+        </en>
+        <de><![CDATA[Fügt jeder Karte Bäume aus dem Silberlaufwald hinzu. Riesenmammutbaum, Wechselblättriger Hartriegel, Ponderosa-Kiefer und Kiefer.
+
+Alle Bäume können über das Baumenü gepflanzt oder platziert werden.
+]]>
+        </de>
     </description>
-    <iconFilename>icon_template.dds</iconFilename>
+    <iconFilename>icon_silverrunTrees.dds</iconFilename>
     <multiplayer supported="true"/>
     <extraSourceFiles>
         <sourceFile filename="src/main.lua"/>
     </extraSourceFiles>
     <storeItems>
-        <!-- Giant Sequoia -->
         <storeItem xmlFilename="trees/giantSequoia/giantSequoia_stage01.xml"/>
         <storeItem xmlFilename="trees/giantSequoia/giantSequoia_stage02.xml"/>
         <storeItem xmlFilename="trees/giantSequoia/giantSequoia_stage03.xml"/>
-        <!-- Pagoda Dogwood -->
         <storeItem xmlFilename="trees/pagodaDogwood/pagodaDogwood_stage01.xml"/>
         <storeItem xmlFilename="trees/pagodaDogwood/pagodaDogwood_stage02.xml"/>
         <storeItem xmlFilename="trees/pagodaDogwood/pagodaDogwood_stage03.xml"/>
-        <!-- Pine -->
         <storeItem xmlFilename="trees/pine/pine_stage01.xml"/>
         <storeItem xmlFilename="trees/pine/pine_stage02.xml"/>
         <storeItem xmlFilename="trees/pine/pine_stage03.xml"/>
         <storeItem xmlFilename="trees/pine/pine_stage04.xml"/>
         <storeItem xmlFilename="trees/pine/pine_stage05.xml"/>
         <storeItem xmlFilename="trees/pine/pine_stage06.xml"/>
-        <!-- Ponderosa Pine -->
         <storeItem xmlFilename="trees/ponderosaPine/ponderosaPine_stage01.xml"/>
         <storeItem xmlFilename="trees/ponderosaPine/ponderosaPine_stage02.xml"/>
         <storeItem xmlFilename="trees/ponderosaPine/ponderosaPine_stage03.xml"/>
