@@ -34,9 +34,5 @@
         <storeItem xmlFilename="trees/ponderosaPine/ponderosaPine_stage02.xml"/>
         <storeItem xmlFilename="trees/ponderosaPine/ponderosaPine_stage03.xml"/>
         <storeItem xmlFilename="trees/ponderosaPine/ponderosaPine_stage04.xml"/>
-        <!-- Spruce -->
-        <storeItem xmlFilename="trees/spruce/spruceVar1_stage01.xml"/>
-        <storeItem xmlFilename="trees/spruce/spruceVar1_stage02.xml"/>
-        <storeItem xmlFilename="trees/spruce/spruceVar1_stage03.xml"/>
     </storeItems>
 </modDesc>

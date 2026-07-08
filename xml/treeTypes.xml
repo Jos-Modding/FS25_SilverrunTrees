@@ -68,21 +68,5 @@
             <stage filename="trees/pine/pine_stage05.i3d" />
             <stage filename="trees/pine/pine_stage06.i3d" />
         </treeType>
-
-        <treeType name="spruceVar1" splitType="SPRUCE" title="$l10n_treeType_spruce" growthTimeHours="305" saplingPrice="0">
-            <stage>
-                <variation name="RISUTECSKB240" filename="trees/spruce/saplings/spruceSapling01.i3d">
-                    <pallet filename="trees/spruce/saplings/spruceSapling01_pallet.i3d" storeItem="$data/objects/pallets/treeSaplingPallet01/treeSaplingPallet01.xml"/>
-                    <planter filename="trees/spruce/saplings/spruceSapling01_planter_risutecSKB240.i3d" />
-                </variation>
-                <variation name="DEFAULT" filename="trees/spruce/saplings/spruceSapling02.i3d">
-                    <pallet storeItem="$data/objects/pallets/treeSaplingPallet02/treeSaplingPallet02.xml"/>
-                </variation>
-            </stage>
-
-            <stage filename="trees/spruce/spruceVar1_stage01.i3d" />
-            <stage filename="trees/spruce/spruceVar1_stage02.i3d" />
-            <stage filename="trees/spruce/spruceVar1_stage03.i3d" />
-        </treeType>
     </treeTypes>
 </map>
