@@ -17,7 +17,7 @@
     <File fileId="11" filename="pagodaDogwood_stage02LOD_fmask.png" />
     <File fileId="14" filename="pagodaDogwood_stage02LOD_mask.png" />
     <File fileId="10" filename="pagodaDogwood_stage02LOD_normal.png" />
-    <File fileId="15" filename="pagodaDogwood_stage02LOD_seasonalCurve.png" />
+    <File fileId="15" filename="$data/maps/trees/tiliaAmurensis/tiliaAmurensis_stage04LOD_seasonalCurve.dds" />
   </Files>
 
   <Materials>
