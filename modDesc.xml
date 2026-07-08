@@ -4,9 +4,11 @@
     <version>1.0.0.0</version>
     <title>
         <en>Silverrun Trees</en>
+        <de>Silverrun Bäume</de>
     </title>
     <description>
         <en><![CDATA[Adds Silverrun trees to any map.]]></en>
+        <de><![CDATA[Fügt Silverrun-Bäume zu jeder Karte hinzu.]]></de>
     </description>
     <iconFilename>icon_template.dds</iconFilename>
     <multiplayer supported="true"/>
