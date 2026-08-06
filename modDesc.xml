@@ -7,16 +7,26 @@
         <de>Silverrun Bäume</de>
     </title>
     <description>
-        <en><![CDATA[Adds trees from Silverrun Forest to any map. Giant Sequoia, Pagoda Dogwood, Ponderosa Pine, and Pine.
+        <en><![CDATA[Adds trees from Silverrun Forest to any map. Giant Sequoia, Pagoda Dogwood, Ponderosa Pine, and Lodgepole Pine.
 
 All trees can be planted or placed through the build menu.
-]]>
-        </en>
-        <de><![CDATA[Fügt jeder Karte Bäume aus dem Silberlaufwald hinzu. Riesenmammutbaum, Wechselblättriger Hartriegel, Ponderosa-Kiefer und Kiefer.
+
+Growth times:
+* Giant Sequoia: 21 months
+* Pagoda Dogwood: 12.6 months
+* Ponderosa Pine: 24 months
+* Lodgepole Pine: 13 months
+]]></en>
+        <de><![CDATA[Fügt jeder Karte Bäume aus dem Silberlaufwald hinzu. Riesenmammutbaum, Wechselblättriger Hartriegel, Ponderosa-Kiefer und Drehkiefer.
 
 Alle Bäume können über das Baumenü gepflanzt oder platziert werden.
-]]>
-        </de>
+
+Wachstumszeiten:
+* Riesenmammutbaum: 21 Monate
+* Wechselblättriger Hartriegel: 12,6 Monate
+* Ponderosa-Kiefer: 24 Monate
+* Drehkiefer: 13 Monate
+]]></de>
     </description>
     <iconFilename>icon_silverrunTrees.dds</iconFilename>
     <multiplayer supported="true"/>

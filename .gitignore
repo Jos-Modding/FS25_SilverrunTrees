@@ -5,3 +5,4 @@ _*
 !.gitattributes
 *.exe
 .idea
+.vscode

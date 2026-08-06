@@ -1,4 +1,5 @@
 .idea export-ignore
+.vscode export-ignore
 .git export-ignore
 .github export-ignore
 .gitignore export-ignore
