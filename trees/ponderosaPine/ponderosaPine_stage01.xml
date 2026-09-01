@@ -5,7 +5,7 @@
         <functions>
             <function>$l10n_function_decoration</function>
         </functions>
-        <image>trees/ponderosaPine/store_ponderosaPine04.dds</image>
+        <image>trees/ponderosaPine/store_ponderosaPine04.png</image>
 
         <price>80</price>
         <dailyUpkeep>0</dailyUpkeep>
@@ -32,5 +32,4 @@
     <base>
         <filename>trees/ponderosaPine/ponderosaPine_stage01.i3d</filename>
     </base>
-
 </placeable>

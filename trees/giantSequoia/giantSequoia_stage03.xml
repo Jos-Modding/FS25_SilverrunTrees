@@ -5,7 +5,7 @@
         <functions>
             <function>$l10n_function_decoration</function>
         </functions>
-        <image>trees/giantSequoia/store_giantSequoia03.dds</image>
+        <image>trees/giantSequoia/store_giantSequoia03.png</image>
 
         <price>3600</price>
         <dailyUpkeep>0</dailyUpkeep>
@@ -32,5 +32,4 @@
     <base>
         <filename>trees/giantSequoia/giantSequoia_stage03.i3d</filename>
     </base>
-
 </placeable>

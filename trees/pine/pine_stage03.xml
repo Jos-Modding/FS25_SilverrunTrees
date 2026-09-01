@@ -5,7 +5,7 @@
         <functions>
             <function>$l10n_function_decoration</function>
         </functions>
-        <image>trees/pine/store_pine_stage06.dds</image>
+        <image>trees/pine/store_pine_stage06.png</image>
 
         <price>140</price>
         <dailyUpkeep>0</dailyUpkeep>
@@ -32,5 +32,4 @@
     <base>
         <filename>$data/maps/trees/pine/pine_stage03.i3d</filename>
     </base>
-
 </placeable>

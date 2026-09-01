@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="110">
+<modDesc descVersion="111">
     <author>Jos</author>
-    <version>1.0.0.0</version>
+    <version>1.0.1.0</version>
     <title>
         <en>Silverrun Trees</en>
         <de>Silverrun Bäume</de>
@@ -16,6 +16,9 @@ Growth times:
 * Pagoda Dogwood: 12.6 months
 * Ponderosa Pine: 24 months
 * Lodgepole Pine: 13 months
+
+Changelog 1.0.1.0:
+- Fixed growth time of Giant Sequoia. Now 21 months.
 ]]></en>
         <de><![CDATA[Fügt jeder Karte Bäume aus dem Silberlaufwald hinzu. Riesenmammutbaum, Wechselblättriger Hartriegel, Ponderosa-Kiefer und Drehkiefer.
 
@@ -26,9 +29,12 @@ Wachstumszeiten:
 * Wechselblättriger Hartriegel: 12,6 Monate
 * Ponderosa-Kiefer: 24 Monate
 * Drehkiefer: 13 Monate
+
+Changelog 1.0.1.0:
+- Feste Wachstumszeit des Riesenmammutbaums. Jetzt 21 Monate.
 ]]></de>
     </description>
-    <iconFilename>icon_silverrunTrees.dds</iconFilename>
+    <iconFilename>icon_silverrunTrees.png</iconFilename>
     <multiplayer supported="true"/>
     <extraSourceFiles>
         <sourceFile filename="src/main.lua"/>

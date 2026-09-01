@@ -1,13 +1,25 @@
 local modDir = g_currentModDirectory
+local modName = g_currentModName
 
-TreePlantManager.loadMapData = Utils.overwrittenFunction(TreePlantManager.loadMapData, function(self, superFunc, xmlFile, missionInfo, baseDirectory)
-    local result = superFunc(self, xmlFile, missionInfo, baseDirectory)
-    local treeTypesFile = loadXMLFile("silverrunTreeTypes", modDir .. "xml/treeTypes.xml")
+SilverrunTrees = {}
+SilverrunTrees.SPLIT_TYPE_NAME = "SPRUCE_SILVERRUN"
+SilverrunTrees.SPLIT_TYPE_INDEX = 69
 
-    if treeTypesFile ~= nil and treeTypesFile ~= 0 then
-        self:loadTreeTypes(treeTypesFile, missionInfo, modDir)
-        delete(treeTypesFile)
+function SilverrunTrees:loadMap()
+    local xmlFile = loadXMLFile("silverrunTreeTypes", modDir .. "xml/treeTypes.xml")
+
+    g_treePlantManager:loadTreeTypes(xmlFile, g_currentMissionnfo, modDir, false, modName)
+
+    addConsoleCommand("gsTreeList", "List all trees", "consoleCommandListTrees", SilverrunTrees)
+end
+
+function SilverrunTrees:consoleCommandListTrees()
+    for _, treeType in pairs(self.treeTypes) do
+        print(treeType.name)
+        print(treeType.title)
+        print("------")
     end
+end
 
-    return result
-end)
+
+addModEventListener(SilverrunTrees)

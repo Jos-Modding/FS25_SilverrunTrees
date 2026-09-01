@@ -5,7 +5,7 @@
         <functions>
             <function>$l10n_function_decoration</function>
         </functions>
-        <image>trees/pagodaDogwood/store_pagodaDogwood_stage03.dds</image>
+        <image>trees/pagodaDogwood/store_pagodaDogwood_stage03.png</image>
 
         <price>200</price>
         <dailyUpkeep>0</dailyUpkeep>
@@ -32,5 +32,4 @@
     <base>
         <filename>trees/pagodaDogwood/pagodaDogwood_stage03.i3d</filename>
     </base>
-
 </placeable>
